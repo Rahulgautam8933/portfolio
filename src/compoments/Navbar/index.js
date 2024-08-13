@@ -1,30 +1,33 @@
 import React from 'react'
+import { MdDownload } from "react-icons/md";
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100">
-                <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
-                </div>
-                <div className="flex-none">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>Link</a></li>
-                        <li>
+        <>
 
-                            <details>
-                                <summary>Parent</summary>
-                                <ul className="bg-base-100 rounded-t-none p-2">
-                                    <li><a>Link 1</a></li>
-                                    <li><a>Link 2</a></li>
-                                </ul>
-                            </details>
-                        </li>
-                    </ul>
+            <div className='navbar' >
+                <div className='flex justify-between width-90'>
+                    <div className=''>
+                        logo name
+                    </div>
+                    <div>
+                        <ul className='navul flex gap-4'>
+                            <li><a href="/">home</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Skills</a></li>
+                            <li><a href="/">Projects</a></li>
+                            <li><a href="/">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div className='downloadButton flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
+                        <span>Resume</span> <span><MdDownload /></span>
+                    </div>
                 </div>
+
             </div>
-            <div className='text-red-200'>Hello there</div>
 
-        </div>
+
+
+        </>
     )
 }
 
