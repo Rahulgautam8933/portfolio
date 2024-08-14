@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
 
             <div className='navbar' >
-                <div className='flex justify-between width-90'>
+                <div className='flex justify-between width-90 py-1'>
                     <div className=''>
                         logo name
                     </div>
