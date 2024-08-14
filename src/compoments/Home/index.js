@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroSection from './HeroSection'
 
 const Homeindex = () => {
     return (
-        <div>home</div>
+        <>
+
+            <HeroSection />
+
+        </>
     )
 }
 

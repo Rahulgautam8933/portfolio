@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
+    font-size: 15px;
 }
 
 /* navbar */
@@ -15,9 +16,19 @@ body {
     margin: auto;
 }
 
+.width-80 {
+    width: 80%;
+    margin: auto;
+}
+
+
 .navbar {
     background-color: theme('colors.nav');
     color: theme('colors.white');
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .downloadButton {
@@ -54,4 +65,104 @@ body {
 .navul li:not(:hover)::after {
     left: -100%;
     transition: left 0.3s ease-in-out;
+}
+
+
+
+/* hero sec */
+
+
+
+.hero-sec-bg {
+    background-color: theme('colors.primary');
+    ;
+    background-image: url("/public/Assets/image/bg1.png");
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+
+.hero-heading {
+    font-size: 4.78vw;
+    font-weight: bolder;
+    color: theme('colors.white');
+}
+
+.hero-heading span {
+
+    color: theme('colors.orange');
+}
+
+.sub-heading {
+    font-size: 22px;
+    font-weight: bolder;
+    color: theme('colors.secondary');
+}
+
+.hero-para {
+    font-size: 15px;
+
+    color: theme('colors.white');
+}
+
+.hero-img-container {
+    position: relative;
+    width: 65%;
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.hero-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+.hero-img-container img:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+
+}
+
+
+
+
+.height-100 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.hero-sec-bg::after {
+    /* background-image: url("/Assets/image/bg3.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: 1;
+    opacity: 0.5;
+
+}
+
+.hero-sec-container {
+    padding-top: 6rem;
+    position: relative;
+
+    z-index: 2;
+
 }
