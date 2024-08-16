@@ -204,3 +204,8 @@ body {
 .das {
     color: theme('colors.orange');
 }
+
+
+
+
+@media (max-width: 480px) and (min-width: 1px) {}
