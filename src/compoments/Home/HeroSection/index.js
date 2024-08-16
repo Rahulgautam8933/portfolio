@@ -6,7 +6,7 @@ const HeroSection = () => {
         <>
             <div className='hero-sec-bg'>
                 <div className='width-90 height-100'>
-                    <div className='grid grid-cols-2 hero-sec-container'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 hero-sec-container'>
                         <div className=''>
                             <h1 className='hero-heading'>
                                 <span>
