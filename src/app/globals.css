@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+/* primary color backgrround color */
+/* secondary color heading and button bg color */
+/* orange color some specific element  color */
+
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -33,6 +43,7 @@ body {
 
 .downloadButton {
     background-color: theme('colors.secondary');
+    color: theme('colors.white')
 }
 
 .navul li {
@@ -102,6 +113,8 @@ body {
     color: theme('colors.secondary');
 }
 
+
+
 .hero-para {
     font-size: 15px;
 
@@ -165,4 +178,29 @@ body {
 
     z-index: 2;
 
+}
+
+
+
+
+/* footer */
+.footer {
+    color: theme('colors.white');
+    background-color: theme('colors.primary');
+    padding: 3rem 0rem;
+}
+
+.sub-heading1 {
+    margin-bottom: 0.6rem;
+    font-size: 18px;
+    font-weight: bolder;
+    color: theme('colors.secondary');
+}
+
+/* .sub-heading1 ul li a {
+    padding: 0.5rem;
+    margin: 0.5rem;
+} */
+.das {
+    color: theme('colors.orange');
 }
