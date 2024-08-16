@@ -11,7 +11,7 @@ const Footer = () => {
                         <img src="/" alt="logo" />
                     </div>
                     <p className='footerText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit </p>
-                    <div>
+                    <div className='flex gap-2'>
                         <span><FaLinkedin /></span>
                         <span><FaLinkedin /></span>
                         <span><FaLinkedin /></span>
@@ -20,9 +20,9 @@ const Footer = () => {
 
                     </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
 
             </div>
         </div>
