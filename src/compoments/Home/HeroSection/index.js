@@ -14,7 +14,6 @@ const HeroSection = () => {
                                 </span> <br />
                                 I am Rahul Gautam.
                             </h1>
-
                             <h3 className='sub-heading'>React & Next.js Developer</h3>
                             <p className='hero-para m'>Must explain to how all this mistaken idea denouncing pleasure pain the system and expound the actual.</p>
 
@@ -30,7 +29,6 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
