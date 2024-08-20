@@ -205,4 +205,10 @@ body {
 
 
 
-@media (max-width: 480px) and (min-width: 1px) {}
+@media (max-width: 480px) and (min-width: 1px) {
+    .hero-heading {
+        font-size: 8.78vw;
+
+    }
+
+}

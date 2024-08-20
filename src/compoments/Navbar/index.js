@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 import React from 'react';
 import { MdDownload } from "react-icons/md";
 import { RiMenuFoldLine } from "react-icons/ri";
@@ -18,11 +19,11 @@ const Navbar = () => {
                     </div>
                     <div className='hidden  md:block'>
                         <ul className='navul flex gap-4'>
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">About</a></li>
-                            <li><a href="/">Skills</a></li>
-                            <li><a href="/">Projects</a></li>
-                            <li><a href="/">Contact</a></li>
+                            <li><Link href="/">Home</Link></li>
+                            <li><Link href="/">About</Link></li>
+                            <li><Link href="/">Skills</Link></li>
+                            <li><Link href="/">Projects</Link></li>
+                            <li><Link href="/">Contact</Link></li>
                         </ul>
                     </div>
                     <div className='hidden  md:block'>
@@ -39,12 +40,12 @@ const Navbar = () => {
                             </div>
                             <div className="drawer-side ">
                                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                                <ul className="menu navul sidebar-bg bg-base-200 text-base-content min-h-full w-80 p-4">
-                                    <li onClick={closeSidebar}><a href="/">Home</a></li>
-                                    <li onClick={closeSidebar}><a href="/">About</a></li>
-                                    <li onClick={closeSidebar}><a href="/">Skills</a></li>
-                                    <li onClick={closeSidebar}><a href="/">Projects</a></li>
-                                    <li onClick={closeSidebar}><a href="/">Contact</a></li>
+                                <ul className="menu navul sidebar-bg bg-base-200 text-base-content min-h-full w-60 p-4">
+                                    <li onClick={closeSidebar}><Link href="/">Home</Link></li>
+                                    <li onClick={closeSidebar}><Link href="/">About</Link></li>
+                                    <li onClick={closeSidebar}><Link href="/">Skills</Link></li>
+                                    <li onClick={closeSidebar}><Link href="/">Projects</Link></li>
+                                    <li onClick={closeSidebar}><Link href="/">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
