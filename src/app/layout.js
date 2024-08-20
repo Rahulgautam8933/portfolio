@@ -8,6 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Rahul gautam react & next js developer",
   description: "react  & next js developer",
+  manifest: "/manifest.json",
+  keywords: ["Rahul", "Rahul gautam", "developer", "next js developer", "react js developer"],
 };
 
 export default function RootLayout({ children }) {
