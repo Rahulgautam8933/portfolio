@@ -27,9 +27,12 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='hidden  md:block'>
-                        <div className='  downloadButton flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
-                            <span>Resume</span> <span><MdDownload /></span>
-                        </div>
+                        <Link href='https://drive.google.com/file/d/1c8HfNZvqBUnpAZoG1ErIEWZv-xOUIAxu/view' target='_blank'>
+
+                            <div className='  downloadButton flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
+                                <span>Resume</span> <span><MdDownload /></span>
+                            </div>
+                        </Link>
                     </div>
                     <div className='block  md:hidden' >
                         <div className="drawer">

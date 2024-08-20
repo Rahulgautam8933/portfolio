@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { MdDownload } from 'react-icons/md'
 
@@ -17,9 +18,13 @@ const HeroSection = () => {
                             <h3 className='sub-heading'>React & Next.js Developer</h3>
                             <p className='hero-para m'>Must explain to how all this mistaken idea denouncing pleasure pain the system and expound the actual.</p>
 
-                            <button className='downloadButton my-4 flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
-                                <span>Resume</span> <span><MdDownload /></span>
-                            </button>
+
+                            <Link href='https://drive.google.com/file/d/1c8HfNZvqBUnpAZoG1ErIEWZv-xOUIAxu/view' target='_blank'>
+
+                                <button className='downloadButton my-4 flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
+                                    <span>Resume</span> <span><MdDownload /></span>
+                                </button>
+                            </Link>
                         </div>
                         <div className=''>
                             <div className='hero-img-container'>
