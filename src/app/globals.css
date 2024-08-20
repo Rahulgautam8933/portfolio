@@ -78,6 +78,20 @@ body {
     transition: left 0.3s ease-in-out;
 }
 
+.navbutonMenu {
+    background-color: theme('colors.secondary');
+    ;
+    color: theme('colors.orange');
+    ;
+    border: 1px solid theme('colors.secondary');
+    ;
+}
+
+.sidebar-bg {
+    background-color: theme('colors.nav');
+    color: theme('colors.white');
+}
+
 
 
 /* hero sec */
@@ -90,11 +104,7 @@ body {
     background-image: url("/public/Assets/image/bg1.png");
     width: 100%;
     height: 100%;
-
-
 }
-
-
 
 .hero-heading {
     font-size: 4.78vw;
@@ -103,7 +113,6 @@ body {
 }
 
 .hero-heading span {
-
     color: theme('colors.orange');
 }
 
@@ -113,11 +122,8 @@ body {
     color: theme('colors.secondary');
 }
 
-
-
 .hero-para {
     font-size: 15px;
-
     color: theme('colors.white');
 }
 
@@ -143,9 +149,6 @@ body {
 
 }
 
-
-
-
 .height-100 {
     height: 90vh;
     display: flex;
@@ -153,14 +156,11 @@ body {
     align-items: center;
 }
 
-
-
 .hero-sec-bg::after {
     /* background-image: url("/Assets/image/bg4.png"); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-
     content: "";
     position: absolute;
     top: 0;
@@ -169,15 +169,12 @@ body {
     height: 90vh;
     z-index: 1;
     opacity: 0.5;
-
 }
 
 .hero-sec-container {
     padding-top: 6rem;
     position: relative;
-
     z-index: 2;
-
 }
 
 
