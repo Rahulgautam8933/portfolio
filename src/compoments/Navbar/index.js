@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className='navbar'>
                 <div className='flex justify-between width-90 py-1'>
                     <div>
-                        logo name
+                        <img style={{ width: "50px" }} src="/Assets/image/logo.png" alt="" />
                     </div>
                     <div className='hidden  md:block'>
                         <ul className='navul flex gap-4'>
