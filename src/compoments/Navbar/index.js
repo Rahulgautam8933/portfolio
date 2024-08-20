@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div>
                         logo name
                     </div>
-                    <div>
+                    <div className='hidden  md:block'>
                         <ul className='navul flex gap-4'>
                             <li><a href="/">Home</a></li>
                             <li><a href="/">About</a></li>
@@ -25,21 +25,21 @@ const Navbar = () => {
                             <li><a href="/">Contact</a></li>
                         </ul>
                     </div>
-
-                    <div className='downloadButton flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
-                        <span>Resume</span> <span><MdDownload /></span>
+                    <div className='hidden  md:block'>
+                        <div className='  downloadButton flex gap-1 justify-center items-center px-4 py-3 rounded-full'>
+                            <span>Resume</span> <span><MdDownload /></span>
+                        </div>
                     </div>
-
-                    <div>
+                    <div className='block  md:hidden' >
                         <div className="drawer">
                             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                             <div className="drawer-content">
                                 {/* Page content here */}
-                                <label htmlFor="my-drawer" className="btn drawer-button  "><RiMenuFoldLine className='text-lg ' /></label>
+                                <label htmlFor="my-drawer" className="btn drawer-button navbutonMenu  "><RiMenuFoldLine className='text-lg ' /></label>
                             </div>
-                            <div className="drawer-side">
+                            <div className="drawer-side ">
                                 <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
-                                <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+                                <ul className="menu navul sidebar-bg bg-base-200 text-base-content min-h-full w-80 p-4">
                                     <li onClick={closeSidebar}><a href="/">Home</a></li>
                                     <li onClick={closeSidebar}><a href="/">About</a></li>
                                     <li onClick={closeSidebar}><a href="/">Skills</a></li>

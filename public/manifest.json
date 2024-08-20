@@ -1,11 +1,11 @@
 {
-    "theme_color": "#003E94",
-    "background_color": "#003E94",
+    "theme_color": "#191919",
+    "background_color": "#191919",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "quickbid",
-    "short_name": "QB",
+    "name": "Rahul",
+    "short_name": "Rg",
     "icons": [
         {
             "src": "/icon-192x192.png",
