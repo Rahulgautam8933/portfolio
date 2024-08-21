@@ -231,11 +231,11 @@ body {
     text-align: center;
     padding: 15px;
     position: absolute;
-    right: -6rem;
-    bottom: 4rem;
+    right: -6vw;
+    bottom: 4vw;
     width: 70%;
     /* opacity: 0.7; */
-    padding: 2rem;
+    padding: 1.5rem;
     display: flex;
     gap: 12px;
     /* height: 37vw; */
@@ -380,11 +380,47 @@ body {
         font-size: 8.78vw;
     }
 
+    .homesection2LeftCard {
+        height: 60vw;
+    }
+
+    .homesection2LeftCard h2 {
+        font-size: 15vw;
+    }
+
+    .sec2card1box2 {
+        right: -6vw;
+        bottom: 7vw;
+    }
+
+    .sec2card1box2 .count {
+        font-size: 27px;
+    }
+
 }
 
 @media (min-width: 0px) and (max-width: 425px) {
     .hero-heading {
         font-size: 8.78vw;
     }
+
+    .homesection2LeftCard {
+        height: 86vw;
+    }
+
+    .homesection2LeftCard h2 {
+        font-size: 15vw;
+    }
+
+    .sec2card1box2 {
+        right: -6vw;
+        bottom: 7vw;
+    }
+
+    .sec2card1box2 .count {
+        font-size: 27px;
+    }
+
+
 
 }
