@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         primary: '#191919',
         secondary: '#41b362',
+        third: "#2C2A1E",
         customColor: '#f66d9b',
         button: "#373737",
         nav: "#131313",
