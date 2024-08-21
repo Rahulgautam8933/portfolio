@@ -5,10 +5,8 @@ import AboutSection from './AboutSection'
 const Homeindex = () => {
     return (
         <>
-
             <HeroSection />
             <AboutSection />
-
         </>
     )
 }

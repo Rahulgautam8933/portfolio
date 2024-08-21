@@ -181,6 +181,96 @@ body {
 
 
 
+
+/* home sec 2 */
+
+
+
+
+.border-gradient {
+    border: 1px solid theme('colors.orange');
+    border-image-slice: 1;
+
+    border-image-source: linear-gradient(to bottom, theme('colors.orange'), theme('colors.primary'));
+}
+
+.border-gradient1 {
+    border: 1px solid theme('colors.orange');
+    border-image-slice: 1;
+
+    border-image-source: linear-gradient(to right, theme('colors.orange'), theme('colors.primary'));
+}
+
+.homesection2LeftCard {
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 60%;
+    /* opacity: 0.7; */
+    height: 37vw;
+    box-shadow: 0px 0px 0.1px 0px theme('colors.secondary');
+    background-image: linear-gradient(theme('colors.third'), theme('colors.primary'));
+
+}
+
+.homesection2LeftCard h2 {
+    font-size: 8vw;
+    color: theme('colors.orange');
+    font-weight: bold;
+
+}
+
+.homesection2LeftCard .yearPara {
+    font-size: 18px;
+    color: theme('colors.white');
+}
+
+
+
+.sec2card1box2 {
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    right: -6rem;
+    bottom: 4rem;
+    width: 70%;
+    /* opacity: 0.7; */
+    padding: 2rem;
+    display: flex;
+    gap: 12px;
+    /* height: 37vw; */
+    box-shadow: 0px 0px 0.1px 0px theme('colors.secondary');
+    background-image: linear-gradient(to right, theme('colors.third'), theme('colors.primary'));
+
+}
+
+.sec2card1box2 .count {
+    font-size: 32px;
+    color: theme('colors.secondary');
+    font-weight: bold;
+}
+
+.sec2card1box2 .count1 {
+    font-size: 14px;
+    opacity: 1;
+    color: theme('colors.white');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 .footer {
     color: theme('colors.white');
