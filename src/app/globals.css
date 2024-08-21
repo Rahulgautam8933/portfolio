@@ -10,12 +10,15 @@
 
 
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: Inter, sans-serif;
     box-sizing: border-box;
     font-size: 15px;
 }
@@ -150,7 +153,6 @@ body {
 }
 
 .height-100 {
-    /* height: 90vh; */
     display: flex;
     padding: 8vw 0rem;
     justify-content: center;
@@ -158,7 +160,6 @@ body {
 }
 
 .hero-sec-bg::after {
-    /* background-image: url("/Assets/image/bg4.png"); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -225,8 +226,6 @@ body {
     color: theme('colors.white');
 }
 
-
-
 .sec2card1box2 {
     text-align: center;
     padding: 15px;
@@ -254,9 +253,29 @@ body {
     font-size: 14px;
     opacity: 1;
     color: theme('colors.white');
+
 }
 
+.homesec2box2 {
+    color: theme('colors.white');
+}
 
+.homesec2box2 h3 {
+    font-size: 22px;
+
+}
+
+.homesec2box2 p {
+    font-size: 15px;
+}
+
+.homesec2box2 .homesec2 {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    background-color: theme('colors.white');
+
+}
 
 
 
@@ -297,10 +316,7 @@ body {
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     color: #000;
