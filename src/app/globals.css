@@ -292,8 +292,17 @@ body {
     height: 10vw;
     border-radius: 15px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 
+}
+
+.homesec2box2 .homesec2 .number {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 

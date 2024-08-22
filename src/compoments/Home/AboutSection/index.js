@@ -25,22 +25,28 @@ const AboutSection = () => {
                             <p>Hello! I'm Rahul Gautam, a web developer with 1.5 years of experience in creating responsive web applications. I specialize in React.js and Next.js for building efficient user interfaces, and I'm proficient in HTML, CSS, Bootstrap, and Node.js. I'm always exploring new technologies to enhance my skills.</p>
                             <div className='grid grid-cols-2  lg:grid-cols-3 2xl:grid-cols-3  md:grid-cols-3 sm:grid-cols-2 mt-5 gap-5'>
                                 <div className=' border-gradient2 homesec2'>
-                                    1
+                                    <span className="number" >90%</span>
+                                    <span>Next js</span>
                                 </div>
                                 <div className=' border-gradient2 homesec2'>
-                                    1
+                                    <span className="number" >95%</span>
+                                    <span  >React js</span>
                                 </div>
                                 <div className=' border-gradient2 homesec2'>
-                                    1
+                                    <span className="number" >97%</span>
+                                    <span>HTML</span>
                                 </div>
                                 <div className=' border-gradient2 homesec2'>
-                                    1
+                                    <span className="number" >98%</span>
+                                    <span>CSS</span>
                                 </div>
                                 <div className=' border-gradient2 homesec2'>
-                                    1
+                                    <span className="number" >90%</span>
+                                    <span>Bootstrap</span>
                                 </div>
                                 <div className=' border-gradient2 homesec2'>
-                                    1
+                                    <span className="number">60%</span>
+                                    <span>Node js</span>
                                 </div>
 
 
