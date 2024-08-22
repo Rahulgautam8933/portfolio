@@ -133,6 +133,7 @@ body {
 .hero-img-container {
     position: relative;
     width: 65%;
+    /* height: 12vw; */
     margin: auto;
     border-radius: 100%;
     overflow: hidden;
