@@ -23,8 +23,23 @@ const AboutSection = () => {
                         <div className='homesec2box2'>
                             <h3 className='mb-2'>My Advantage</h3>
                             <p>Hello! I'm Rahul Gautam, a web developer with 1.5 years of experience in creating responsive web applications. I specialize in React.js and Next.js for building efficient user interfaces, and I'm proficient in HTML, CSS, Bootstrap, and Node.js. I'm always exploring new technologies to enhance my skills.</p>
-                            <div className='grid grid-cols-3'>
-                                <div className='homesec2'>
+                            <div className='grid grid-cols-2  lg:grid-cols-3 2xl:grid-cols-3  md:grid-cols-3 sm:grid-cols-2 mt-5 gap-5'>
+                                <div className=' border-gradient2 homesec2'>
+                                    1
+                                </div>
+                                <div className=' border-gradient2 homesec2'>
+                                    1
+                                </div>
+                                <div className=' border-gradient2 homesec2'>
+                                    1
+                                </div>
+                                <div className=' border-gradient2 homesec2'>
+                                    1
+                                </div>
+                                <div className=' border-gradient2 homesec2'>
+                                    1
+                                </div>
+                                <div className=' border-gradient2 homesec2'>
                                     1
                                 </div>
 
